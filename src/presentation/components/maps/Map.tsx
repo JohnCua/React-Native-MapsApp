@@ -88,7 +88,7 @@ export const Map = ({ showsUserLocation = true, initialLocation }: Props) => {
             </MapView>
 
             <FAB
-                iconName={isFollowingUser ? 'eye-outline' : 'eye-off-outline'}
+                iconName={isShowingPolyline ? 'eye-outline' : 'eye-off-outline'}
                 onPress={() => setIsShowingPolyline(!isShowingPolyline)}
                 style={{
                     bottom: 140,
