@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
   ) -> Bool {
 
-    GMSServices.provideAPIKey("AIzaSyCJ6KFL-fpv_kWoYdLbqnQF26YX2wG3F4M")
+    GMSServices.provideAPIKey("")
 
     let delegate = ReactNativeDelegate()
     let factory = RCTReactNativeFactory(delegate: delegate)
